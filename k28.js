@@ -32,11 +32,6 @@ if (result != null)
     for (var i = 0; i < result.matches.length; i++) 
     {
         var pp = result.matches[i].point
-        
-        //var xx = random(pp.x, pp.x + img.getWidth())
-        //var yy = random(pp.y, pp.y + img.getWidth())
-        //var slp = random(1000, 2000)
-        //sleep(slp)  //随机延时
         click(pp.x, pp.y)
         sleep (1000)
         
